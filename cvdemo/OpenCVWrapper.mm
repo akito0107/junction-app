@@ -46,9 +46,25 @@ using namespace std;
     for (auto mc : marker_corners) {
         cv::Rect brect = boundingRect(mc);
         subjects.push_back(brect);
+    
     }
     for (auto i : marker_ids) {
         ids.push_back(i);
+       
+    }
+    for (int i = 0; i < subjects.size(); i++) {
+        string str;
+        int id = ids[i];
+        if (id == 1) {
+            str = "clothing";
+        } else if (id == 2) {
+            str = "book";
+        } else if (id == 3) {
+            str = "toy";
+        }
+        cv::Rect brect = subjects[i];
+        putText(image, str, cv::Point(brect.x, brect.y), FONT_HERSHEY_PLAIN, 3, Scalar(0,0,255), 1, CV_AA);
+
     }
 
     //image.copyTo(cp);

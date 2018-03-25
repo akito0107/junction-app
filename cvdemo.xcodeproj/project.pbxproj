@@ -29,6 +29,7 @@
 		08D44C6B2066A7E800A5E08C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D44C6A2066A7E800A5E08C /* TableViewController.swift */; };
 		08D44C6D2066BDAB00A5E08C /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D44C6C2066BDAB00A5E08C /* CellModel.swift */; };
 		08D44C6F2066BE3100A5E08C /* TableCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D44C6E2066BE3100A5E08C /* TableCellTableViewCell.swift */; };
+		08F753F5206727DA00A5E08C /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F753F4206727DA00A5E08C /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		08D44C6A2066A7E800A5E08C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		08D44C6C2066BDAB00A5E08C /* CellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
 		08D44C6E2066BE3100A5E08C /* TableCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellTableViewCell.swift; sourceTree = "<group>"; };
+		08F753F4206727DA00A5E08C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				083D998D20661E9F00A5E08C /* CoreVideo.framework in Frameworks */,
 				083D998B20661E9800A5E08C /* CoreMedia.framework in Frameworks */,
 				083D998920661E9100A5E08C /* CoreImage.framework in Frameworks */,
+				08F753F5206727DA00A5E08C /* opencv2.framework in Frameworks */,
 				083D998720661E8A00A5E08C /* CoreGraphics.framework in Frameworks */,
 				083D998520661E8100A5E08C /* AVFoundation.framework in Frameworks */,
 				083D998320661E7A00A5E08C /* AssetsLibrary.framework in Frameworks */,
@@ -145,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				08D44C68206655B900A5E08C /* opencv2.framework */,
+				08F753F4206727DA00A5E08C /* opencv2.framework */,
 				083D994B2066178F00A5E08C /* AppDelegate.swift */,
 				083D994D2066178F00A5E08C /* ViewController.swift */,
 				08D44C6A2066A7E800A5E08C /* TableViewController.swift */,
